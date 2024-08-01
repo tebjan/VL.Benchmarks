@@ -6,10 +6,10 @@
 
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <id>VL.NewLibrary.Template</id>
+    <id>VL.Benchmark</id>
     <!-- For more about versions see: https://thegraybook.vvvv.org/reference/extending/publishing.html#version -->
-    <version>0.0.1-alpha</version>
-    <title>VL.NewLibrary.Template</title>
+    <version>0.1.0</version>
+    <title>VL.Benchmark</title>
     <!-- Provide authors and projectUrl --> 
     <authors></authors>
     <projectUrl></projectUrl>
