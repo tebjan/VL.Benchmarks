@@ -1,0 +1,7 @@
+shader ParticleColor_ShaderFX : ComputeFloat4, FuseParticleProvider
+{
+    override float4 Compute()
+    {
+        return GetParticle().Color;
+    }
+};
