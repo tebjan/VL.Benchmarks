@@ -1,11 +1,150 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!DOCTYPE ROOT PUBLIC "" ""[]>
 <Spread xmlns:r="reflection" r:Version="2">
-  <Item Duration="60" Key="BoxGeometryRenderer" Resolution="1920, 1080" Warump_Frames="60">
+  <Item Duration="60" Key="BoxGeometryRenderer" Resolution="1920, 1028" Warump_Frames="300">
     <Params>
       <Item Key="Box Count">
-        <Value r:Type="Integer32 [Primitive]">1000000</Value>
+        <Value r:Type="Integer32 [Primitive]">3000000</Value>
       </Item>
     </Params>
+  </Item>
+  <Item Duration="60" Key="ComputeShaderInstancing" Resolution="1920, 1028" Warump_Frames="60">
+    <Params>
+      <Item Key="Trail Length">
+        <Value r:Type="Integer32 [Primitive]">1024</Value>
+      </Item>
+      <Item Key="Trail Count">
+        <Value r:Type="Integer32 [Primitive]">256</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="NoiseDynamicModel" Resolution="1920, 1028" Warump_Frames="60">
+    <Params>
+      <Item Key="Model Resolution">
+        <Value r:Type="Integer32 [Primitive]">256</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="FluidAndParticles" Resolution="1920, 1028" Warump_Frames="60">
+    <Params />
+  </Item>
+  <Item Duration="60" Key="FuseTerrain" Resolution="1920, 1028" Warump_Frames="60">
+    <Params />
+  </Item>
+  <Item Duration="60" Key="GPUParticleSystemPBR" Resolution="1920, 1028" Warump_Frames="60">
+    <Params>
+      <Item Key="Particle Count">
+        <Value r:Type="Integer32 [Primitive]">1048576</Value>
+      </Item>
+      <Item Key="Particle System Count">
+        <Value r:Type="Integer32 [Primitive]">10</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="GPUParticleSystem" Resolution="1920, 1028" Warump_Frames="60">
+    <Params>
+      <Item Key="Particle Count">
+        <Value r:Type="Integer32 [Primitive]">1048576</Value>
+      </Item>
+      <Item Key="Particle System Count">
+        <Value r:Type="Integer32 [Primitive]">10</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="ImposterPerfTest" Resolution="1920, 1028" Warump_Frames="60">
+    <Params>
+      <Item Key="Particle Size">
+        <Value r:Type="Float32 [Primitive]">1</Value>
+      </Item>
+      <Item Key="Count">
+        <Value r:Type="Integer32 [Primitive]">10000000</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="RaymarchNoise" Resolution="1920, 1028" Warump_Frames="120">
+    <Params />
+  </Item>
+  <Item Duration="30" Key="SpherePhysics" Resolution="1920, 1028" Warump_Frames="240">
+    <Params>
+      <Item Key="Sphere Count">
+        <Value r:Type="Integer32 [Primitive]">1000</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="FuseTrails" Resolution="1920, 1028" Warump_Frames="300">
+    <Params />
+  </Item>
+  <Item Duration="60" Key="BoxGeometryRenderer" Resolution="3840, 2160" Warump_Frames="300">
+    <Params>
+      <Item Key="Box Count">
+        <Value r:Type="Integer32 [Primitive]">3000000</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="ComputeShaderInstancing" Resolution="3840, 2160" Warump_Frames="60">
+    <Params>
+      <Item Key="Trail Length">
+        <Value r:Type="Integer32 [Primitive]">1024</Value>
+      </Item>
+      <Item Key="Trail Count">
+        <Value r:Type="Integer32 [Primitive]">256</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="NoiseDynamicModel" Resolution="3840, 2160" Warump_Frames="60">
+    <Params>
+      <Item Key="Model Resolution">
+        <Value r:Type="Integer32 [Primitive]">256</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="FluidAndParticles" Resolution="3840, 2160" Warump_Frames="60">
+    <Params />
+  </Item>
+  <Item Duration="60" Key="FuseTerrain" Resolution="3840, 2160" Warump_Frames="60">
+    <Params />
+  </Item>
+  <Item Duration="60" Key="GPUParticleSystemPBR" Resolution="3840, 2160" Warump_Frames="60">
+    <Params>
+      <Item Key="Particle Count">
+        <Value r:Type="Integer32 [Primitive]">1048576</Value>
+      </Item>
+      <Item Key="Particle System Count">
+        <Value r:Type="Integer32 [Primitive]">10</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="GPUParticleSystem" Resolution="3840, 2160" Warump_Frames="60">
+    <Params>
+      <Item Key="Particle Count">
+        <Value r:Type="Integer32 [Primitive]">1048576</Value>
+      </Item>
+      <Item Key="Particle System Count">
+        <Value r:Type="Integer32 [Primitive]">10</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="ImposterPerfTest" Resolution="3840, 2160" Warump_Frames="60">
+    <Params>
+      <Item Key="Particle Size">
+        <Value r:Type="Float32 [Primitive]">1</Value>
+      </Item>
+      <Item Key="Count">
+        <Value r:Type="Integer32 [Primitive]">10000000</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="RaymarchNoise" Resolution="3840, 2160" Warump_Frames="120">
+    <Params />
+  </Item>
+  <Item Duration="30" Key="SpherePhysics" Resolution="3840, 2160" Warump_Frames="240">
+    <Params>
+      <Item Key="Sphere Count">
+        <Value r:Type="Integer32 [Primitive]">1000</Value>
+      </Item>
+    </Params>
+  </Item>
+  <Item Duration="60" Key="FuseTrails" Resolution="3840, 2160" Warump_Frames="300">
+    <Params />
   </Item>
 </Spread>
