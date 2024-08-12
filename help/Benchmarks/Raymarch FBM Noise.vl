@@ -458,36 +458,49 @@
               <Pin Id="Rzr7pzIzN44Nfb8Wka8M3e" Name="PostFX" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="AEULcX54kJXNqEFQGewTOv" Bounds="758,1663" />
-            <Node Bounds="1015,1420,345,19" Id="De5ITK3J98dMI2qifyNsFe">
+            <Node Bounds="1013,1372,285,19" Id="RZv7Qr5QNs6Nz1QY0TqCTU">
               <p:NodeReference LastCategoryFullName="Stride.Cameras" LastDependency="VL.Stride.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="Camera" />
+                <Choice Kind="ProcessAppFlag" Name="OrbitCamera" />
               </p:NodeReference>
-              <Pin Id="Ul8Sj2oZsswPB66nmeyudH" Name="Node Context" Kind="InputPin" IsHidden="true" />
-              <Pin Id="FkO4t6kRyDSNYYxj0Yvqjc" Name="Initial Name" Kind="InputPin" />
-              <Pin Id="UVquJDoY9XiLqlIuQkPFOY" Name="Base Components" Kind="InputPin" />
-              <Pin Id="KcDS0d0BQBwLoA7KyTIeUX" Name="Transformation" Kind="InputPin" />
-              <Pin Id="G3n5ev848JCLz0ilqprEWX" Name="Components" Kind="InputPin" />
-              <Pin Id="Ki9v1AoIfcHOvjy93LDrcJ" Name="Children" Kind="InputPin" />
-              <Pin Id="DpfslVWcSkgP5qWRoQ4e0M" Name="Name" Kind="InputPin" />
-              <Pin Id="Rl9YG5RjwyWMzUP6wfcwfA" Name="Use Custom View Matrix" Kind="InputPin" />
-              <Pin Id="PSITWLPV6arMeqjLrXqicW" Name="View Matrix" Kind="InputPin" />
-              <Pin Id="BbSO6byKrjrLBZjhG3X5dT" Name="Projection" Kind="InputPin" />
-              <Pin Id="CX1gdtuizIWNPXUHFKiXbb" Name="Vertical Field Of View" Kind="InputPin" />
-              <Pin Id="KQHUUtkzyvaOB1MZzMxEEX" Name="Orthographic Size" Kind="InputPin" />
-              <Pin Id="VLEIZjK1C3OPPTdR0gTWAk" Name="Use Custom Aspect Ratio" Kind="InputPin" />
-              <Pin Id="EIk8zcjuSIOP4bwpejjxZl" Name="Aspect Ratio" Kind="InputPin" />
-              <Pin Id="CNYzymy8eNlOyibTMTbmna" Name="Near Clip Plane" Kind="InputPin" />
-              <Pin Id="JRmCHl7DoYaPIy3S2BPquM" Name="Far Clip Plane" Kind="InputPin" />
-              <Pin Id="OLdIvcbiF7PLc456MI0b7P" Name="Show Helper" Kind="InputPin" />
-              <Pin Id="GfuNvAHsUn8Pxut2ieaBdH" Name="Enabled" Kind="InputPin" />
-              <Pin Id="Bg5VUH6VohVP7gyGnpEqWr" Name="Projection Matrix" Kind="InputPin" />
-              <Pin Id="GktCmoT3uCZLts2YDEulay" Name="Output" Kind="OutputPin" />
-              <Pin Id="EwVWu6oj2sgO2kAbwrIMKu" Name="Camera Component" Kind="OutputPin" />
+              <Pin Id="KqS02CaDzfuPBHb8uDrTgo" Name="Node Context" Kind="InputPin" IsHidden="true" />
+              <Pin Id="FdSk901u5b3QIP7oJU9A0j" Name="Components" Kind="InputPin" />
+              <Pin Id="Ofe461uZb5TNEVw5w5ZLPt" Name="Children" Kind="InputPin" />
+              <Pin Id="OLFkdDhlU6pLnsWdubtGwV" Name="Initial Interest" Kind="InputPin" />
+              <Pin Id="UKMGdcgVkXRNmvddiMSNr4" Name="Initial Yaw" Kind="InputPin" />
+              <Pin Id="JEtLKgWVOeTPxy6M3APorW" Name="Initial Pitch" Kind="InputPin" />
+              <Pin Id="BYexiUpHznyObeKpzmInAK" Name="Initial Distance" Kind="InputPin" />
+              <Pin Id="Bj3kXKwAHTXNKZUJeX0dVr" Name="Initial Vertical Field Of View" Kind="InputPin" />
+              <Pin Id="Ocdswlxx6zdPl5AXC8NSkj" Name="Projection" Kind="InputPin" />
+              <Pin Id="B3PytB33jUSO0OQ3Q1plRS" Name="Near Clip Plane" Kind="InputPin" />
+              <Pin Id="PlqFzcN1g5ONI48vs6rUdd" Name="Far Clip Plane" Kind="InputPin" />
+              <Pin Id="EecsIm7xzdNL5xdHxgNYP6" Name="Auto Fetch Input Source" Kind="InputPin" IsHidden="true" />
+              <Pin Id="QYHXEz1XZZiMgs6TlYwDcr" Name="Input Source" Kind="InputPin" IsHidden="true" />
+              <Pin Id="LX7qbPYKX1CQaWWOWkYmha" Name="Aspect Ratio" Kind="InputPin" />
+              <Pin Id="TS0oW9GpVhEQAOYNV2cakU" Name="Use Custom Aspect Ratio" Kind="InputPin" />
+              <Pin Id="SlRHpmKgFjYNQldBUZXmK5" Name="Show Helper" Kind="InputPin" />
+              <Pin Id="I6T9b0cLa4rOmKrQuNvwgB" Name="Projection Matrix" Kind="InputPin" IsHidden="true" />
+              <Pin Id="B9PLtdUg5hIMhDQzOGx3sT" Name="Reset" Kind="InputPin" />
+              <Pin Id="MvG6lKE7i3DL9WErbuSS8w" Name="Enabled" Kind="InputPin" />
+              <Pin Id="PLsNXFwess7PVrkPDMy7Eo" Name="Output" Kind="OutputPin" />
+              <Pin Id="DGphXfwlBQmL8VrbGYBJDe" Name="Position" Kind="OutputPin" />
+              <Pin Id="VoLZFpD3x7jNQOtuTjz6kK" Name="Frustum" Kind="OutputPin" />
+              <Pin Id="Pfhf4lOXB6vN9KOQ0OUmi2" Name="Inverse View" Kind="OutputPin" />
+              <Pin Id="UQTrrrvkMF2N13THhbKNFZ" Name="Camera Component" Kind="OutputPin" />
             </Node>
-            <Pad Id="HoNz0T1z2v4MQYuO2UWWin" Comment="View Matrix" Bounds="1276,1315,119,61" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -5.09, -0.47, 1">
-              <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
-                <Choice Kind="TypeFlag" Name="Matrix" />
+            <Pad Id="GPMJYM8izLcPge3RUOSKEA" Comment="Initial Pitch" Bounds="1105,1293,35,15" ShowValueBox="true" isIOBox="true" Value="-0.12">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Pad Id="Kkl7q2d5nmvPrDQHQbGGLn" Comment="Initial Distance" Bounds="1128,1329,35,15" ShowValueBox="true" isIOBox="true" Value="-5.2">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Pad Id="INvgan8URFOM4BklxfwnB6" Comment="Initial Vertical Field Of View" Bounds="1141,1351,35,15" ShowValueBox="true" isIOBox="true" Value="0.108">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Pad>
           </Canvas>
@@ -495,11 +508,6 @@
           <Patch Id="Oi5XQhMQlxwQM8ueqTteY5" Name="Update">
             <Pin Id="GptQmTwLiUbQYmcopQkfwU" Name="Output" Kind="OutputPin" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="JB6a59ZeJ5VMNXKFixK94V">
             <Fragment Id="NogMZsb6qYuMgIVHY57Ny7" Patch="KRa6BEBIyMDNf0VoHtoSml" Enabled="true" />
             <Fragment Id="N74KeiAZux9QcDuugKajEL" Patch="Oi5XQhMQlxwQM8ueqTteY5" Enabled="true" />
@@ -571,8 +579,10 @@
           <Link Id="UpbS0BWKz8ELHtFAR4S6mB" Ids="Rzr7pzIzN44Nfb8Wka8M3e,LXkjmUVj9ffNFDa5MTSftS" />
           <Link Id="AGJ9RtxNa6GNoXzx0SROzf" Ids="VEJqrmZPuOMPbqcTzxZ4L0,AEULcX54kJXNqEFQGewTOv" />
           <Link Id="KXlAYyrttSwLz8iYwjtfPk" Ids="AEULcX54kJXNqEFQGewTOv,GptQmTwLiUbQYmcopQkfwU" IsHidden="true" />
-          <Link Id="P3VG3EXYBu3Os6LktUrY7k" Ids="GktCmoT3uCZLts2YDEulay,IEjLIqVVSAXPIbwcaEYSGP" />
-          <Link Id="OBlLilhWhAAMvuTLNTpJFR" Ids="HoNz0T1z2v4MQYuO2UWWin,PSITWLPV6arMeqjLrXqicW" />
+          <Link Id="HqZaJlgcZAeNsk4l98b2K8" Ids="PLsNXFwess7PVrkPDMy7Eo,IEjLIqVVSAXPIbwcaEYSGP" />
+          <Link Id="Ak03OVNK97vMDqYCMVsm0v" Ids="GPMJYM8izLcPge3RUOSKEA,JEtLKgWVOeTPxy6M3APorW" />
+          <Link Id="KMtmGGmIoXwPqdjyVQjgLW" Ids="Kkl7q2d5nmvPrDQHQbGGLn,BYexiUpHznyObeKpzmInAK" />
+          <Link Id="QtVMyXWZ7dfOtLwK4KKMAE" Ids="INvgan8URFOM4BklxfwnB6,Bj3kXKwAHTXNKZUJeX0dVr" />
         </Patch>
       </Node>
       <!--

@@ -877,34 +877,34 @@
               <Pin Id="E2nox2k0dwTP2iJ0efAz2v" Name="PostFX" Kind="InputPin" />
               <Pin Id="GcreAaJoTgtQPFbUHMz9PD" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Node Bounds="732,977,345,19" Id="FLArPMwSZ4kPlUwqv827P2">
+            <Node Bounds="897,963,345,19" Id="HBtzyQMCghSOtaIXjlwlXf">
               <p:NodeReference LastCategoryFullName="Stride.Cameras" LastDependency="VL.Stride.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Camera" />
               </p:NodeReference>
-              <Pin Id="Dk9xz7MrpmhPt9rrLirOcN" Name="Node Context" Kind="InputPin" IsHidden="true" />
-              <Pin Id="P6X795PCH8jOvAAhI8Wezz" Name="Initial Name" Kind="InputPin" />
-              <Pin Id="Cp8hxR9SQp2OvH2LqhTVUB" Name="Base Components" Kind="InputPin" />
-              <Pin Id="Id5vPIPFy7nOTErL3Jxdz1" Name="Transformation" Kind="InputPin" />
-              <Pin Id="SvrBZFyuV2LMBT9vkyjnan" Name="Components" Kind="InputPin" />
-              <Pin Id="FI1V00uDjMGMTdgroHznoM" Name="Children" Kind="InputPin" />
-              <Pin Id="BEno93uSDjSLFkGQzi13bT" Name="Name" Kind="InputPin" />
-              <Pin Id="VC46jc02k1ZMwLhIPGV1Dd" Name="Use Custom View Matrix" Kind="InputPin" />
-              <Pin Id="QgUd2AT7O80MhRXOD1Odfd" Name="View Matrix" Kind="InputPin" />
-              <Pin Id="FLhyhEaZyk3O4s29yt6xHU" Name="Projection" Kind="InputPin" />
-              <Pin Id="BnB1qCd5hIPLvWL9ImphG0" Name="Vertical Field Of View" Kind="InputPin" />
-              <Pin Id="LdTW8NTUQhdPm7XwciZsxF" Name="Orthographic Size" Kind="InputPin" />
-              <Pin Id="Kc7rWIb6o9BPmlj8mQMvx3" Name="Use Custom Aspect Ratio" Kind="InputPin" />
-              <Pin Id="R0X4xOPrTL1N54p5EneEZy" Name="Aspect Ratio" Kind="InputPin" />
-              <Pin Id="UoQ9gOEG3XQLZwZasueo91" Name="Near Clip Plane" Kind="InputPin" />
-              <Pin Id="Ul8Tpps5dBDLH2KuFLZJIh" Name="Far Clip Plane" Kind="InputPin" />
-              <Pin Id="A5lwgZ5e2YiN5o9F7dTKI2" Name="Show Helper" Kind="InputPin" />
-              <Pin Id="IVE9CyzHkc0Nq82Rr75Mdc" Name="Enabled" Kind="InputPin" />
-              <Pin Id="PnvyzmpHYz7ORu7ujxCFMY" Name="Projection Matrix" Kind="InputPin" />
-              <Pin Id="J7TnuZlQ5XhPwbebA76k6p" Name="Output" Kind="OutputPin" />
-              <Pin Id="D43C0xuqIC2PBfDSB8talP" Name="Camera Component" Kind="OutputPin" />
+              <Pin Id="JHjLHLYlziNQNQow1GxFk9" Name="Node Context" Kind="InputPin" IsHidden="true" />
+              <Pin Id="Lgf17xcge1gMMcgAAUAGjr" Name="Initial Name" Kind="InputPin" />
+              <Pin Id="GLadaA8onluMpKcJftSOXR" Name="Base Components" Kind="InputPin" />
+              <Pin Id="BPK535BQAjYOPtzOQOEK6v" Name="Transformation" Kind="InputPin" />
+              <Pin Id="SljSH137DW3Oi9ulZlVhw0" Name="Components" Kind="InputPin" />
+              <Pin Id="M7Assar5Ty6NmSs1RCjxc2" Name="Children" Kind="InputPin" />
+              <Pin Id="OG7RAp9FrbRPqq6vBibLi7" Name="Name" Kind="InputPin" />
+              <Pin Id="R05ljpbGXBGNmvK2sR7nEU" Name="Use Custom View Matrix" Kind="InputPin" />
+              <Pin Id="Lmjj7qCcBYtNIupBA7f8Io" Name="View Matrix" Kind="InputPin" />
+              <Pin Id="DHRnKmTUJmaO2TCJRuH7HF" Name="Projection" Kind="InputPin" />
+              <Pin Id="OwQjqg0AkObPWvmsUHVE0n" Name="Vertical Field Of View" Kind="InputPin" />
+              <Pin Id="E6lxGcZsGGIP4YJaV5KD0n" Name="Orthographic Size" Kind="InputPin" />
+              <Pin Id="HkEo79PfcTfOKD1tHxUByJ" Name="Use Custom Aspect Ratio" Kind="InputPin" />
+              <Pin Id="T9e1ACm5ZlUMEtJckxNF5X" Name="Aspect Ratio" Kind="InputPin" />
+              <Pin Id="V07hLua6wViOzjqk1X0YNn" Name="Near Clip Plane" Kind="InputPin" />
+              <Pin Id="L3XlEecdTmrMNsVUxryWRE" Name="Far Clip Plane" Kind="InputPin" />
+              <Pin Id="H5IsLOeyZnaMx2JgWaaMI2" Name="Show Helper" Kind="InputPin" />
+              <Pin Id="R7RIcoLWXDzNXT6cFE96wO" Name="Enabled" Kind="InputPin" />
+              <Pin Id="CYb1vtt02bWQUM41FRhZ5Z" Name="Projection Matrix" Kind="InputPin" />
+              <Pin Id="DLpO8frFl1zPeRtv42CiYH" Name="Output" Kind="OutputPin" />
+              <Pin Id="Kr18md8zr39OYVuhQhZVh7" Name="Camera Component" Kind="OutputPin" />
             </Node>
-            <Pad Id="DAJXFDvlaoKOUVsYAGox9y" Comment="View Matrix" Bounds="933,860,192,61" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1, -5, 1">
+            <Pad Id="A9xcgoHV3G0OakP5qX7150" Comment="View Matrix" Bounds="1098,846,192,61" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.5, -7, 1">
               <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Matrix" />
               </p:TypeAnnotation>
@@ -948,8 +948,8 @@
           <Link Id="JAqWEAoch2NNudZyzsI5Pt" Ids="CeTPgRKDNRQNP6bh4klXZG,HnsaAsPFhB4PQ6JOQa0iTl" />
           <Link Id="KSM8sMe5p11N5XaOCl9ptO" Ids="JZI3JA3zDK7NDk4UTxzb51,CeTPgRKDNRQNP6bh4klXZG" IsHidden="true" />
           <Link Id="H3rcLkNv0HmP1F9cGpkoq1" Ids="GcreAaJoTgtQPFbUHMz9PD,TkKbcSaFeMvN7JgHAcONgY" />
-          <Link Id="Nt0Qe796jGoNSLHjxHfcIt" Ids="DAJXFDvlaoKOUVsYAGox9y,QgUd2AT7O80MhRXOD1Odfd" />
-          <Link Id="VZUgIi30RnCO5e8uk7ASY0" Ids="J7TnuZlQ5XhPwbebA76k6p,PxoG8FYwluwMteDbH1TZ2A" />
+          <Link Id="RZlZofUKMKXL5wVjPFA5nz" Ids="A9xcgoHV3G0OakP5qX7150,Lmjj7qCcBYtNIupBA7f8Io" />
+          <Link Id="Ht6YzGEPugBLMx5trMk7ZN" Ids="DLpO8frFl1zPeRtv42CiYH,PxoG8FYwluwMteDbH1TZ2A" />
         </Patch>
       </Node>
     </Canvas>

@@ -106,7 +106,7 @@
                 <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
               </p:ValueBoxSettings>
             </Pad>
-            <Pad Id="L1CMVkBExDVMz8EVrMOhiI" Comment="" Bounds="590,1019,86,19" ShowValueBox="true" isIOBox="true" Value="20000">
+            <Pad Id="L1CMVkBExDVMz8EVrMOhiI" Comment="" Bounds="590,1019,86,19" ShowValueBox="true" isIOBox="true" Value="30000">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
@@ -1083,11 +1083,6 @@
           <Patch Id="LuSWd1lAesyQavzgCBRSyF" Name="Update">
             <Pin Id="Vd0LxZRSGtxNiv46NFwMcB" Name="Output" Kind="OutputPin" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="J3XV7vMoKuUMBoGMnUAtf5">
             <Fragment Id="PJOlKM3bpa6OBvVd6FTMxB" Patch="TkgBaQ2PggdOeA7zKqRL49" Enabled="true" />
             <Fragment Id="VxvRLDsfuD0MTBVRjQurYZ" Patch="LuSWd1lAesyQavzgCBRSyF" Enabled="true" />

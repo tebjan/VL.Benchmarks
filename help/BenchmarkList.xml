@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<Spread xmlns:r="reflection" r:Version="2">
+  <Item Duration="60" Key="BoxGeometryRenderer" Resolution="1920, 1080" Warump_Frames="60">
+    <Params>
+      <Item Key="Box Count">
+        <Value r:Type="Integer32 [Primitive]">1000000</Value>
+      </Item>
+    </Params>
+  </Item>
+</Spread>
