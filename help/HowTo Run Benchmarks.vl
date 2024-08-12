@@ -61,12 +61,12 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="IptX970n3UoL9RdQ0Zb4ne" Comment="Available Benchmarks" Bounds="678,191,149,38" ShowValueBox="true" isIOBox="true">
+          <Pad Id="IptX970n3UoL9RdQ0Zb4ne" Comment="Available Benchmarks" Bounds="678,191,149,187" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:maxvisibleentries p:Type="Int32">25</p:maxvisibleentries>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="OqfxdoKUGWjQF6ib7PGHIP" Comment="Update Error Message" Bounds="713,700,108,38" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="OqfxdoKUGWjQF6ib7PGHIP" Comment="Update Error Message" Bounds="670,688,108,38" ShowValueBox="true" isIOBox="true" />
           <Pad Id="B3ytk4o3drmLt3ENjU7oNz" Comment="Init Error Message" Bounds="628,757,89,42" ShowValueBox="true" isIOBox="true" />
           <Pad Id="AxX3el1ZMuONu6aFqJmO7d" Comment="Create Error Message" Bounds="542,820,120,46" ShowValueBox="true" isIOBox="true" />
           <Pad Id="V52kiuosNFDNSzWNqEj9OT" Comment="Current Benchmark" Bounds="381,646,110,15" ShowValueBox="true" isIOBox="true" />
@@ -91,7 +91,7 @@
             <Pin Id="AOm0nVywQFULqpMPizGzuW" Name="Input 2" Kind="InputPin" />
             <Pin Id="HAtNcbLFTJmLlsHmQKExkC" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="PpjvcHTsmA9MYVENgHJx7x" Comment="Custom Benchmark List" Bounds="476,334,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="PpjvcHTsmA9MYVENgHJx7x" Comment="Custom Benchmark List" Bounds="459,342,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -108,7 +108,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="Vz0ftdkNNt2OQlSEvM2Zh7" Comment="Progress" Bounds="735,658,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="EqKvVlotXPLOkq9r3L9Bhq" Comment="Text" Bounds="1105,-111,640,234" ShowValueBox="true" isIOBox="true" Value="&lt;Spread xmlns:r=&quot;reflection&quot; r:Version=&quot;2&quot;&gt;&#xD;&#xA;  &lt;Item Duration=&quot;60&quot; Key=&quot;BoxGeometryRenderer&quot; Resolution=&quot;3840, 2160&quot; Warump_Frames=&quot;240&quot; &gt;&#xD;&#xA;    &lt;Params/&gt;&#xD;&#xA;  &lt;/Item&gt;&#xD;&#xA;  &lt;Item Duration=&quot;120&quot; Key=&quot;BoxGeometryRenderer&quot; Resolution=&quot;3840, 2160&quot; Warump_Frames=&quot;240&quot; &gt;&#xD;&#xA;  &lt;Params&gt;&#xD;&#xA;    &lt;Item Key=&quot;Box Count&quot;&gt;&#xD;&#xA;      &lt;Value r:Type=&quot;Integer32 [Primitive]&quot;&gt;3000000&lt;/Value&gt;&#xD;&#xA;    &lt;/Item&gt;&#xD;&#xA;  &lt;/Params&gt;&#xD;&#xA;  &lt;/Item&gt;&#xD;&#xA;&lt;/Spread&gt;">
+          <Pad Id="EqKvVlotXPLOkq9r3L9Bhq" Comment="Text" Bounds="1105,-111,640,234" ShowValueBox="true" isIOBox="true" Value="&lt;Spread xmlns:r=&quot;reflection&quot; r:Version=&quot;2&quot;&gt;&#xD;&#xA;  &lt;Item Duration=&quot;60&quot; Key=&quot;BoxGeometryRenderer&quot; Resolution=&quot;3840, 2160&quot; Warump_Frames=&quot;300&quot; &gt;&#xD;&#xA;  &lt;Params&gt;&#xD;&#xA;    &lt;Item Key=&quot;Box Count&quot;&gt;&#xD;&#xA;      &lt;Value r:Type=&quot;Integer32 [Primitive]&quot;&gt;3000000&lt;/Value&gt;&#xD;&#xA;    &lt;/Item&gt;&#xD;&#xA;  &lt;/Params&gt;&#xD;&#xA;  &lt;/Item&gt;&#xD;&#xA;  &lt;Item Duration=&quot;60&quot; Key=&quot;GPUParticleSystemPBR&quot; Resolution=&quot;3840, 2160&quot; Warump_Frames=&quot;60&quot;&gt;&#xD;&#xA;    &lt;Params&gt;&#xD;&#xA;      &lt;Item Key=&quot;Particle System Count&quot;&gt;&#xD;&#xA;        &lt;Value r:Type=&quot;Integer32 [Primitive]&quot;&gt;10&lt;/Value&gt;&#xD;&#xA;      &lt;/Item&gt;&#xD;&#xA;      &lt;Item Key=&quot;Particle Count&quot;&gt;&#xD;&#xA;        &lt;Value r:Type=&quot;Integer32 [Primitive]&quot;&gt;1048576&lt;/Value&gt;&#xD;&#xA;      &lt;/Item&gt;&#xD;&#xA;    &lt;/Params&gt;&#xD;&#xA;  &lt;/Item&gt;&#xD;&#xA;  &lt;Item Duration=&quot;60&quot; Key=&quot;GPUParticleSystem&quot; Resolution=&quot;3840, 2160&quot; Warump_Frames=&quot;60&quot;&gt;&#xD;&#xA;    &lt;Params&gt;&#xD;&#xA;      &lt;Item Key=&quot;Particle System Count&quot;&gt;&#xD;&#xA;        &lt;Value r:Type=&quot;Integer32 [Primitive]&quot;&gt;10&lt;/Value&gt;&#xD;&#xA;      &lt;/Item&gt;&#xD;&#xA;      &lt;Item Key=&quot;Particle Count&quot;&gt;&#xD;&#xA;        &lt;Value r:Type=&quot;Integer32 [Primitive]&quot;&gt;1048576&lt;/Value&gt;&#xD;&#xA;      &lt;/Item&gt;&#xD;&#xA;    &lt;/Params&gt;&#xD;&#xA;  &lt;/Item&gt;&#xD;&#xA;  &lt;Item Duration=&quot;60&quot; Key=&quot;ImposterPerfTest&quot; Resolution=&quot;3840, 2160&quot; Warump_Frames=&quot;60&quot;&gt;&#xD;&#xA;    &lt;Params&gt;&#xD;&#xA;      &lt;Item Key=&quot;Count&quot;&gt;&#xD;&#xA;        &lt;Value r:Type=&quot;Integer32 [Primitive]&quot;&gt;10000000&lt;/Value&gt;&#xD;&#xA;      &lt;/Item&gt;&#xD;&#xA;      &lt;Item Key=&quot;Particle Size&quot;&gt;&#xD;&#xA;        &lt;Value r:Type=&quot;Float32 [Primitive]&quot;&gt;1&lt;/Value&gt;&#xD;&#xA;      &lt;/Item&gt;&#xD;&#xA;    &lt;/Params&gt;&#xD;&#xA;  &lt;/Item&gt;&#xD;&#xA;&lt;/Spread&gt;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -207,7 +207,7 @@
             <ControlPoint Id="DNcaZvaPjhuNGzz0koznI7" Bounds="1345,429" Alignment="Bottom" />
             <ControlPoint Id="KSMWYiH6w6ZPGDV7ikd9k2" Bounds="1390,429" Alignment="Bottom" />
           </Node>
-          <Pad Id="C8bm8GEQBBFOU6e8F2kc4O" Comment="" Bounds="1284,575,595,141" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="C8bm8GEQBBFOU6e8F2kc4O" Comment="" Bounds="1347,639,690,576" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="1387,516,62,19" Id="EsiH0WuwvzOP30MySyFb0O">
             <p:NodeReference LastCategoryFullName="System.XML" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -388,6 +388,16 @@
   </Patch>
   <NugetDependency Id="KBBVDwUZuw7Og1J0aQBahD" Location="VL.Benchmarks" Version="0.0.0" />
   <NugetDependency Id="EdlemvPGyQ5OLIW09Zm7g3" Location="VL.Stride" Version="2024.6.6" />
-  <DocumentDependency Id="E3EmhGd2vYYPCuR5Vglnv3" Location="./BoxRendererGeometryShader.vl" />
   <NugetDependency Id="BscXh5i6MhtLei4NlEhQq6" Location="VL.ImGui.Stride" Version="2024.6.6" />
+  <DocumentDependency Id="IwnHTFiHo2TMv43y5i5ILz" Location="./Benchmarks/BoxRendererGeometryShader.vl" />
+  <DocumentDependency Id="PhhlX4Y6wS2OzbOLRNdnok" Location="./Benchmarks/Compute Shader Instancing.vl" />
+  <DocumentDependency Id="PfLZaEwLEZGPnAmNKevpKX" Location="./Benchmarks/Dynamic Model from Noise.vl" />
+  <DocumentDependency Id="UJWO7nZQ18DP7nHyDtU11i" Location="./Benchmarks/Fluid Particles Spheres.vl" />
+  <DocumentDependency Id="KINPYXMpTP7OXo9llQi9Rs" Location="./Benchmarks/Fuse terrain.vl" />
+  <DocumentDependency Id="DZOOd9rVpk8PLHrf5gqUYi" Location="./Benchmarks/GPU Particle System with PBR.vl" />
+  <DocumentDependency Id="JO4A7ujzGv1PT0rs2KJpSP" Location="./Benchmarks/GPU Particle System.vl" />
+  <DocumentDependency Id="BVIW6GJSbIoMytcfX3YUir" Location="./Benchmarks/ImposterPerfTest.vl" />
+  <DocumentDependency Id="APc9ucclwSUL13WvNIRagi" Location="./Benchmarks/Raymarch FBM Noise.vl" />
+  <DocumentDependency Id="Bd08whpbndOLNZ8fzVhJ8O" Location="./Benchmarks/Sphere Physics.vl" />
+  <DocumentDependency Id="QbHBb21rJwRPJgHgXouaaO" Location="./Benchmarks/Trails.vl" />
 </Document>
