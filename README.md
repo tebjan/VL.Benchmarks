@@ -1,23 +1,56 @@
-# VL.NewLibrary.Template
-What this library is used for
+# VL.Benchmarks
 
-For use with vvvv, the visual live-programming environment for .NET: http://visualprogramming.net
+**VL.Benchmarks** is a performance testing suite designed for use with [vvvv](http://visualprogramming.net), a visual live-programming environment built on .NET. This tool allows you to run various benchmarks defined by XML files and records their frames per second (FPS). The results are output to CSV files for further data analysis.
 
-## Getting started
-- Install as [described here](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html) via commandline:
+## Features
 
-    `nuget install VL.NewLibrary.Template -pre`
+- **Predefined Benchmarks:** Run benchmarks that are ready to go.
+- **Custom Benchmarks:** Set up your own benchmarks tailored to your specific performance testing needs.
+- **Results Analysis:** Automatically save benchmark results in a CSV format for easy analysis.
 
-- Usage examples and more information are included in the pack and can be found via the [Help Browser](https://thegraybook.vvvv.org/reference/hde/findinghelp.html)
+## Getting Started
+
+### Prerequisites
+
+To develop your own benchmarks:
+Ensure you have vvvv installed. You can download it from [visualprogramming.net](http://visualprogramming.net).
+
+### Installation
+
+- Download the executable from the [Releases](https://github.com/tebjan/VL.Benchmarks/releases) page of this repository.
+
+### Running Benchmarks
+
+#### Predefined Benchmarks
+
+To run predefined benchmarks:
+1. Download the executable from the release page.
+2. Execute the benchmarks and check the CSV output for results.
+
+Note on Performance:
+
+The current version of VL.Benchmarks is optimized for high-end machines, and mid-range machines may experience very low FPS with the default settings. You can adjust some settings in the BenchmarkList.xml to better suit your hardware.
+
+#### Custom Benchmarks
+
+To create and run custom benchmarks:
+- Please refer to the example patches included in this repository for guidance on setting up your benchmarks.
+- If you need further assistance, ask specific questions in the [vvvv forum](https://discourse.vvvv.org/c/vvvv-gamma/28).
 
 ## Contributing
-- Report issues on [the vvvv forum](https://discourse.vvvv.org/c/vvvv-gamma/28)
-- For custom development requests, please [get in touch](mailto:devvvvs@vvvv.org)
-- When making a pull-request, please make sure to read the general [guidelines on contributing to vvvv libraries](https://thegraybook.vvvv.org/reference/extending/contributing.html)
 
-## Credits
-Links to libraries this is based on
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+- **Report Bugs**: Post detailed bug reports with reproducible steps in the [vvvv forum](https://discourse.vvvv.org/c/vvvv-gamma/28).
+- **Feature Requests and Discussions**: Use the same forums for discussions and feature requests.
+- **Pull Requests**: You are welcome to submit pull requests.
+
+For direct inquiries about custom development, please [contact me](https://github.com/tebjan).
 
 ## Sponsoring
-Development of this library was partially sponsored by:  
-* 
+
+Development of this library was generously sponsored by [Refik Anadol Studio](https://refikanadolstudio.com).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md) - see the LICENSE file for details.
