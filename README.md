@@ -1,3 +1,5 @@
+![Header Image](.github/VLBenchmarks.png)
+
 # VL.Benchmarks
 
 **VL.Benchmarks** is a performance testing suite designed for use with [vvvv](http://visualprogramming.net), a visual live-programming environment built on .NET. This tool allows you to run various benchmarks defined by XML files and records their frames per second (FPS). The results are output to CSV files for further data analysis.
