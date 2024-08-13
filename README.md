@@ -39,9 +39,9 @@ To create and run custom benchmarks:
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Any contributions you make are **greatly appreciated**.
 
-- **Report Bugs**: Post detailed bug reports with reproducible steps in the [vvvv forum](https://discourse.vvvv.org/c/vvvv-gamma/28).
+- **Report Bugs**: Post bug reports in the issues here or in the [vvvv forum](https://discourse.vvvv.org/c/vvvv-gamma/28).
 - **Feature Requests and Discussions**: Use the same forums for discussions and feature requests.
 - **Pull Requests**: You are welcome to submit pull requests.
 
