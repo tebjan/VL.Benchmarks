@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="CXHSNFaak2sL58tOyFrWQw" LanguageVersion="2024.6.7-0095-g97916f6fec" Version="0.128">
-  <NugetDependency Id="LPEpqBT1lmXNeYcZ2PeVvM" Location="VL.CoreLib" Version="2024.6.7-0095-g97916f6fec" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="CXHSNFaak2sL58tOyFrWQw" LanguageVersion="2024.6.6" Version="0.128">
+  <NugetDependency Id="LPEpqBT1lmXNeYcZ2PeVvM" Location="VL.CoreLib" Version="2024.6.6" />
   <Patch Id="BzxXZNNGLSFMjbAbHcv3d7">
     <Canvas Id="BcymQT6UvUYLtxbZW0iB4y" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -403,8 +403,8 @@
     </Node>
   </Patch>
   <NugetDependency Id="KBBVDwUZuw7Og1J0aQBahD" Location="VL.Benchmarks" Version="0.0.0" />
-  <NugetDependency Id="EdlemvPGyQ5OLIW09Zm7g3" Location="VL.Stride" Version="2024.6.7-0095-g97916f6fec" />
-  <NugetDependency Id="BscXh5i6MhtLei4NlEhQq6" Location="VL.ImGui.Stride" Version="2024.6.7-0095-g97916f6fec" />
+  <NugetDependency Id="EdlemvPGyQ5OLIW09Zm7g3" Location="VL.Stride" Version="2024.6.6" />
+  <NugetDependency Id="BscXh5i6MhtLei4NlEhQq6" Location="VL.ImGui.Stride" Version="2024.6.6" />
   <DocumentDependency Id="IwnHTFiHo2TMv43y5i5ILz" Location="./Benchmarks/BoxRendererGeometryShader.vl" />
   <DocumentDependency Id="PhhlX4Y6wS2OzbOLRNdnok" Location="./Benchmarks/Compute Shader Instancing.vl" />
   <DocumentDependency Id="PfLZaEwLEZGPnAmNKevpKX" Location="./Benchmarks/Dynamic Model from Noise.vl" />

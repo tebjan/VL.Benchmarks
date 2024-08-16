@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="EWHWcwf3oBvPnhn254YyBa" LanguageVersion="2024.6.7-0095-g97916f6fec" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="EWHWcwf3oBvPnhn254YyBa" LanguageVersion="2024.6.6" Version="0.128">
   <Patch Id="Rgz0iK0cdl5O6XLZAnSI2k">
     <Canvas Id="EtMz6eWyJpjMOVOROl6714" DefaultCategory="Benchmarks" CanvasType="FullCategory">
       <!--
@@ -2877,15 +2877,6 @@
               <Pin Id="LuXvM70vwO9MI1yBj1GVf1" Name="Output" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="ET2a7ZrtQAhOT3lv8csbCu" Bounds="1865,1086" />
-            <Node Bounds="1862,1111,47,26" Id="Llqx0JS43CxMuTvZMvI1vv">
-              <p:NodeReference LastCategoryFullName="Primitive.Optional" LastDependency="VL.CoreLib.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <CategoryReference Kind="4026531840" Name="Optional" NeedsToBeDirectParent="true" />
-                <Choice Kind="OperationCallFlag" Name="Create" />
-              </p:NodeReference>
-              <Pin Id="DYk2gOWqYjdP7zHPktu7Zh" Name="Value" Kind="InputPin" />
-              <Pin Id="RIVlFWtks5SP4TT5o4lMwT" Name="Output" Kind="StateOutputPin" />
-            </Node>
             <Pad Id="QK5cvNUh3U0NEV0hLylEQV" Comment="" Bounds="2067,1156,23,15" ShowValueBox="true" isIOBox="true" Value=" / ">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -2965,12 +2956,11 @@
           <Link Id="IzybqahYYohOXK9tVwmlJg" Ids="FHHIy7ZsMHcMmvWoaHg8yn,ET2a7ZrtQAhOT3lv8csbCu" IsHidden="true" />
           <Link Id="S4UUT7d3KfgMLe3xS5GELZ" Ids="DS4HshuAseWO8cC7UfjuZq,CclYz9SCZTfNuwSiz0CSLn" />
           <Link Id="OcNo3VNJACgOGroYT6yIyq" Ids="DS4HshuAseWO8cC7UfjuZq,RZrG1nnSc4OM6rfYJfXUVt" />
-          <Link Id="PrznnwsvGfhOJuDO6XeBcA" Ids="ET2a7ZrtQAhOT3lv8csbCu,DYk2gOWqYjdP7zHPktu7Zh" />
-          <Link Id="RuSDk0jkERNPmFAq99qC16" Ids="RIVlFWtks5SP4TT5o4lMwT,OsZRJBGwj6uOoi2LDzfN1J" />
           <Link Id="JSfDBChyUtSL3h1VDhylAo" Ids="VxgTNYeFmh1Ox22BWYshML,I8JMvqPl0qENubiBB6bg6V" />
           <Link Id="Tm7q9d6rQhdLQOSZdVhsYu" Ids="LuXvM70vwO9MI1yBj1GVf1,SJ5igJx1Q8xPvjOqV8Hx1r" />
           <Link Id="CJ6j0TfK9XCMrwjfe1bKx6" Ids="OdwzHhda2BVOOtSzhBmYoC,RnGcFHafIp4QSH47V40DQu" />
           <Link Id="IowJ5wlxKjhNp7ORtFjOAB" Ids="QK5cvNUh3U0NEV0hLylEQV,OfbIgq5x9GbPwIgNQi0g6c" />
+          <Link Id="M5wFBgTWbOzLrDpgyXIU2a" Ids="ET2a7ZrtQAhOT3lv8csbCu,OsZRJBGwj6uOoi2LDzfN1J" />
         </Patch>
       </Node>
       <!--
@@ -5786,12 +5776,12 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Ko9OqCOVyY7Pz8mbJrOqb0" Location="VL.CoreLib" Version="2024.6.7-0095-g97916f6fec" />
-  <NugetDependency Id="N7sPa3IUsS2NQJ5pJrsE6g" Location="VL.Stride" Version="2024.6.7-0095-g97916f6fec" />
+  <NugetDependency Id="Ko9OqCOVyY7Pz8mbJrOqb0" Location="VL.CoreLib" Version="2024.6.6" />
+  <NugetDependency Id="N7sPa3IUsS2NQJ5pJrsE6g" Location="VL.Stride" Version="2024.6.6" />
   <PlatformDependency Id="CqTcxCXd3ciQdgzC4eGwDJ" Location="mscorlib" />
-  <NugetDependency Id="SaFI6JcjcPoPBsf7DJt4NN" Location="VL.ImGui.Stride" Version="2024.6.7-0095-g97916f6fec" />
-  <NugetDependency Id="QOe8rwS2cTHOMP2bu8NxKk" Location="VL.ImGui" Version="2024.6.7-0095-g97916f6fec" />
-  <NugetDependency Id="BS3QoFGfDamMWcxM5ma8bR" Location="VL.ImGui.Skia" Version="2024.6.7-0095-g97916f6fec" />
+  <NugetDependency Id="SaFI6JcjcPoPBsf7DJt4NN" Location="VL.ImGui.Stride" Version="2024.6.6" />
+  <NugetDependency Id="QOe8rwS2cTHOMP2bu8NxKk" Location="VL.ImGui" Version="2024.6.6" />
+  <NugetDependency Id="BS3QoFGfDamMWcxM5ma8bR" Location="VL.ImGui.Skia" Version="2024.6.6" />
   <NugetDependency Id="Hj0xzVURHcOOoXOl4SIAXL" Location="Csv" Version="2.0.93" />
   <NugetDependency Id="UnWo8HBH23gP8FxK7ApPem" Location="System.Management" Version="8.0.0" />
   <NugetDependency Id="NowF2lKX9QlMFC2jDRKbz1" Location="MathNet.Numerics" Version="5.0.0" />
