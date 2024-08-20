@@ -26,6 +26,7 @@
             <Pin Id="H12zdduJMvDLAIdT6OafRI" Name="Start" Kind="InputPin" />
             <Pin Id="OntDWzVR6tPLdsdhv1HTIx" Name="Pause" Kind="InputPin" />
             <Pin Id="MD41i223yS2NLM0f8hBPPa" Name="Stop" Kind="InputPin" />
+            <Pin Id="PDfnAJfhtywNskCKUrZhAi" Name="Current BenchmarkConfig" Kind="OutputPin" />
             <Pin Id="VAzxOiMV6W2M960nEbxZDV" Name="Current Benchmark" Kind="OutputPin" />
             <Pin Id="NASxfJspOCAPV7LP0scJnL" Name="Output" Kind="OutputPin" />
             <Pin Id="RSSMR8PjktyMKkrEooWHAp" Name="Create Error Message" Kind="OutputPin" />
@@ -81,7 +82,7 @@
             <Pin Id="FzR57f8QsYnM4Yb0awQZft" Name="Default Benchmark List" Kind="OutputPin" />
             <Pin Id="TSWuz6gsGQsPzd2YOv8cSG" Name="Type Names" Kind="OutputPin" />
           </Node>
-          <Node Bounds="505,408,45,19" Id="BQ4SiGWoXAGLmNlkL3959B">
+          <Node Bounds="504,415,45,19" Id="BQ4SiGWoXAGLmNlkL3959B">
             <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Switch (Boolean)" />
@@ -91,7 +92,7 @@
             <Pin Id="AOm0nVywQFULqpMPizGzuW" Name="Input 2" Kind="InputPin" />
             <Pin Id="HAtNcbLFTJmLlsHmQKExkC" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="PpjvcHTsmA9MYVENgHJx7x" Comment="Custom Benchmark List" Bounds="459,342,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="PpjvcHTsmA9MYVENgHJx7x" Comment="Custom Benchmark List" Bounds="458,349,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -166,6 +167,8 @@
               <Choice Kind="ProcessAppFlag" Name="BenchmarkUI" />
             </p:NodeReference>
             <Pin Id="C2tmzgOgHOoPNU6Bf1tWFa" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="BBTlZZiu6MhP6U0N7n55cV" Name="BenchmarkConfigs" Kind="InputPin" />
+            <Pin Id="LbGRSYaPqF7Ng7cnFYqqEj" Name="Current BenchmarkConfig" Kind="InputPin" />
             <Pin Id="Tle9Zb8TxYxL2nFVEXHa1n" Name="Input" Kind="InputPin" />
             <Pin Id="NjecCPzJ79IM8cbPjejgil" Name="Update" Kind="ApplyPin" />
           </Node>
@@ -323,7 +326,7 @@
             <Pin Id="KfwtLzIx0wGOHzM7gXiLXQ" Name="Input 2" Kind="InputPin" />
             <Pin Id="DgYebe8f3jpOFZsxqRgI0p" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="GM6pIgMr0S6Nmxx3BlYCn6" Comment="From File" Bounds="848,308,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="GM6pIgMr0S6Nmxx3BlYCn6" Comment="From File" Bounds="853,312,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -394,6 +397,8 @@
         <Link Id="OMYGNRjWZysQB4CHaqVgWT" Ids="IUBb0xLWlR9Li6DWycZHVQ,Qkh5ewnLXX7NwsoInaTBXl" />
         <Link Id="CDIszUjNsz7OM4S6idU4sB" Ids="M7cLVCjumrAM2JymeX6p3M,CsnM9h5u4AnLwbh4yfqnwg" />
         <Link Id="SdrVPRVtLt0PcA9L7ZjI20" Ids="DMaVr15uiY3OCN0OePLThB,Cd8Wf9CmyeyO8ORgC7ff6X" />
+        <Link Id="AIK2XcsOSWXLLVMkvrpnv0" Ids="HAtNcbLFTJmLlsHmQKExkC,BBTlZZiu6MhP6U0N7n55cV" />
+        <Link Id="BsLke0nW9GhMaxTtxFfZv6" Ids="PDfnAJfhtywNskCKUrZhAi,LbGRSYaPqF7Ng7cnFYqqEj" />
       </Patch>
     </Node>
   </Patch>
