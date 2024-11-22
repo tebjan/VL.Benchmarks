@@ -12,11 +12,6 @@
 
 ## Getting Started
 
-### Prerequisites
-
-To develop your own benchmarks:
-Ensure you have vvvv installed. You can download it from [visualprogramming.net](http://visualprogramming.net).
-
 ### Installation
 
 - Download the executable from the [Releases](https://github.com/tebjan/VL.Benchmarks/releases) page of this repository.
@@ -33,7 +28,10 @@ Note on Performance:
 
 The current version of VL.Benchmarks is optimized for high-end machines, and mid-range machines may experience very low FPS with the default settings. You can adjust some settings in the BenchmarkList.xml to better suit your hardware.
 
-#### Custom Benchmarks
+### Custom Benchmarks
+
+#### Prerequisites
+Ensure you have vvvv installed. You can download it from [visualprogramming.net](http://visualprogramming.net).
 
 To create and run custom benchmarks:
 - Please refer to the example patches included in this repository for guidance on setting up your benchmarks.
